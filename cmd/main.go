@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/knative-sandbox/kn-plugin-diag/pkg/command/diagnose"
-	"github.com/knative-sandbox/kn-plugin-diag/pkg/utils"
+	"kn-plugin-diag/pkg/command/diagnose"
+	"kn-plugin-diag/pkg/utils"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
 
 )
